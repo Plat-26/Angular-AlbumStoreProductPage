@@ -21,7 +21,6 @@ import { ProductListComponent } from './product-list/product-list.component';
   imports: [
     BrowserModule,
     FormsModule,
-    ProductService,
     HttpModule
   ],
   providers: [ProductService],
